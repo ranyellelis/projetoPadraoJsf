@@ -9,16 +9,12 @@ import javax.faces.bean.RequestScoped;
 @RequestScoped
 public class WelcomeBean implements Serializable {
 
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
 	
 	private String mensagem =  "Olá";
 	
 
 	public String getMensagem() {
-		//ClienteRest.getUnico("http://localhost:8080/responde/teste", String.class);
 		return mensagem;
 	}
 
